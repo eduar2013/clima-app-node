@@ -17,7 +17,7 @@ let getInfo = async(direccion) => {
 
         return `La temperatura en ${coors.direccion} es de ${temp} °C`;
     } catch (e) {
-        return `No se pudo determinar la temperatura para ${direccion}`;
+        return `No se pudo determinar la temperatura hola para ${direccion}`;
 
     }
 
